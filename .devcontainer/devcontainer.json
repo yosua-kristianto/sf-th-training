@@ -1,0 +1,11 @@
+{
+  "name": "Salesforce Dev Container",
+  "image": "salesforce/cli:2.98.6-full",
+  "workspaceFolder": "/workspace",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind"
+  ],
+  "extensions": [
+    "salesforce.salesforcedx-vscode"
+  ]
+}
