@@ -1,5 +1,6 @@
 public with sharing class HouseService {
 
+    // Enable AuraEnabled for Lightning Components
     @AuraEnabled(cacheable = true)
     public static List<House__c> getRecords() {
         try {
